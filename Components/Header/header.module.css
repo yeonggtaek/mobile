@@ -1,0 +1,46 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    background: white;
+  }
+  
+  .back {
+    width: 60px;
+    height: 53px;
+  }
+  
+  .logo {
+    width: 102px;
+    height: 57px;
+  }
+  
+  .menu {
+    width: 60px;
+    height: 53px;
+  }
+  
+  .logo {
+    height: 57px;
+    width: 102px;
+    cursor: pointer;
+  }
+  
+  .img {
+    height: 110px;
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  .menuwrap {
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+  }

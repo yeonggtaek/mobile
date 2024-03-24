@@ -1,0 +1,12 @@
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .text {
+    font-family: "Rubik Glitch";
+    font-size: 64px;
+    color: white;
+  }
