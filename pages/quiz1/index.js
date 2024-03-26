@@ -1,25 +1,28 @@
 import React from "react";
 import Image from "next/image";
-import styles from "./quiz.module.css";
+import styles from "./quiz1.module.css";
 import Button from "@/Components/Button";
 import Layout from "@/Components/Layout";
 
-export default function Quiz() {
+export default function Quiz1() {
   return (
     <Layout>
     <section className={styles.quiz}>
-      <h1 className={styles.title}>Quiz</h1>
+      <h1 className={styles.title}>Q.1</h1>
       <Image
         className={styles.man}
-        src="/man.png"
-        alt="man"
-        width="190"
+        src="/Q1.png"
+        alt="Q1"
+        width="300"
         height="300"
       />
       <p className={styles.text}>
-        Let’s learn about climate change issues through quizzes.
+      Is climate change affecting marine ecosystems?
       </p>
-      <Button link="quiz1">Start</Button>
+      <div className={styles.button}>
+      <Button link="yes">Yes</Button>
+      <Button link="no">No</Button>
+      </div>
     </section>
     </Layout>
   );

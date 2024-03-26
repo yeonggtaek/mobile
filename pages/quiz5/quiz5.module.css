@@ -1,7 +1,7 @@
 .quiz {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -9,8 +9,11 @@
   }
   
   .title {
+    display: flex;
     font-family: "Roboto Slab";
     font-size: 48px;
+    justify-content: left;
+    align-items: left;
   }
   
   .text {
@@ -18,4 +21,10 @@
     font-size: 24px;
     text-align: center;
     width: 70%;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
   }

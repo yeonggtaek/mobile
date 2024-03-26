@@ -4,6 +4,7 @@ import Button from "@/Components/Button";
 
 export default function Start() {
   return (
+    <Layout>
     <section className={styles.start}>
       <div className={styles.text}>
         <p>Hi!</p>
@@ -12,5 +13,6 @@ export default function Start() {
       </div>
       <Button link="/about">Go</Button>
     </section>
+    </Layout>
   );
 }
