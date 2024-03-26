@@ -1,0 +1,19 @@
+.start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0px 60px;
+    gap: 120px;
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    font-family: "Rubik Bubbles";
+    font-size: 32px;
+    color: white;
+    text-align: center;
+  }

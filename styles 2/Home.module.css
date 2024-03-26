@@ -1,0 +1,16 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 60px;
+}
+
+.title {
+  font-family: "Rubik Glitch";
+  font-size: 64px;
+  text-align: center;
+  color: white;
+  line-height: 36px;
+}

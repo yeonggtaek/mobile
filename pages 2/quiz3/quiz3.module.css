@@ -9,8 +9,11 @@
   }
   
   .title {
+    display: flex;
     font-family: "Roboto Slab";
     font-size: 48px;
+    justify-content: left;
+    align-items: left;
   }
   
   .text {
@@ -18,13 +21,10 @@
     font-size: 24px;
     text-align: center;
     width: 70%;
-    color: white;
   }
 
-  .learn {
-    color: white;
-    font-size: 20px;
+  .button {
     display: flex;
-    flex-direction: row;
-    list-style-type: none;
+    justify-content: center;
+    gap: 50px;
   }
