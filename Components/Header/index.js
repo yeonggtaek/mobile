@@ -12,9 +12,8 @@ export default function Header() {
 
   const [isShowMenu, setIsShowMenu] = useState(false);
 
-  const showMenu = () => {
-    setIsShowMenu(true);
-    hideMenu(false);
+  const toggleMenu = () => {
+    setIsShowMenu(!isShowMenu);
   };
 
   return (
@@ -38,32 +37,32 @@ export default function Header() {
         />
       </div>
       <div className={styles.menuContainer}>
-        <Image
-          className={styles.menu}
-          src="/menu.png"
-          alt="menu"
-          width="60"
-          height="50"
-        />
+        <div className={styles.menu} onClick={toggleMenu}>
+          <Image
+            src="/menu.png"
+            alt="menu"
+            width="60"
+            height="50"
+          />
+        </div>
       </div>
-      <div className={styles.menu} onClick={showMenu}></div>
       {isShowMenu && (
         <div className={styles.menuScreen}>
           <ul>
             <li className={router.pathname === "/" ? styles.active : ""}>
               <Link href="/">Home</Link>
             </li>
-            <li className={router.pathname === "/About" ? styles.active : ""}>
-              <Link href="/About">About</Link>
+            <li className={router.pathname === "/about" ? styles.active : ""}>
+              <Link href="/about">About</Link>
             </li>
             <li className={router.pathname === "/quiz" ? styles.active : ""}>
-              <Link href="/learnmore">Quiz</Link>
+              <Link href="/quiz">Quiz</Link>
             </li>
             <li className={router.pathname === "/learnmore" ? styles.active : ""}>
-            <Link href="/learnmore">Learnmore</Link>
-          </li>
+              <Link href="/learnmore">Learnmore</Link>
+            </li>
           </ul>
-          <button onClick={hideMenu}>X</button>
+          <button onClick={toggleMenu}>X</button>
         </div>
       )}
     </header>
