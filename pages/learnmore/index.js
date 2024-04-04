@@ -7,7 +7,6 @@ import Layout from "@/Components/Layout";
 export default function Learnmore() {
   return (
     <Layout>
-    <section className={styles.earth}>
       <Image
         className={styles.earth5}
         src="/earth5.png"
@@ -19,15 +18,14 @@ export default function Learnmore() {
         className={styles.ground}
         src="/ground.png"
         alt="ground"
-        width="300"
-        height="300"
+        width="200"
+        height="150"
       />
-      <Button link="readmore">Read More</Button>
-      <ul>
+      <Button link="end">Next</Button>
+      <ul className={styles.text}>
         <li>Energy conservation: Being mindful of energy usage by turning off lights, appliances, and electronics when not in use, and using energy-efficient products.</li>
         <li>Sustainable transportation: Opting for walking, biking, carpooling, or using public transportation instead of driving alone can reduce carbon emissions.</li>
       </ul>
-    </section>
     </Layout>
   );
 }

@@ -1,14 +1,4 @@
-.quiz {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    color: white;
-  }
-  
-  .title {
+.title {
     display: flex;
     font-family: "Roboto Slab";
     font-size: 48px;
@@ -22,7 +12,7 @@
     text-align: center;
     width: 70%;
   }
-
+  
   .button {
     display: flex;
     justify-content: center;

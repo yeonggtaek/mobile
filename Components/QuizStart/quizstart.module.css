@@ -1,0 +1,11 @@
+.title {
+    font-family: "Roboto Slab";
+    font-size: 48px;
+  }
+  
+  .text {
+    font-family: "Roboto Slab";
+    font-size: 24px;
+    text-align: center;
+    width: 70%;
+  }
