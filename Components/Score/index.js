@@ -10,9 +10,9 @@ export default function Score({ score }) {
       <Image src="/score.png" alt="score" width="150" height="150"/>
       <p className={styles.text}>Great Job!</p>
       <p className={styles.score}>score: {score}</p>
-      <Button link="quiz">retry</Button>
+      <Button link="quiz">Retry</Button>
       <div className={styles.learn}>
-        <Link href="/learnmore">learnmore</Link>
+        <Link href="/learnmore">Learnmore</Link>
       </div>
     </>
   );

@@ -47,8 +47,7 @@
 
   
   .menuScreen {
-    margin: 0;
-    padding: 0;
+    margin-top: 100px;
     position: fixed;
     background: #0a4e9f;
     text-align: center;
@@ -68,6 +67,7 @@
   .menuScreen ul li a {
     color: white;
     font-size: 30px;
+    text-decoration: none;
   }
   
   .menuScreen button {
@@ -75,4 +75,5 @@
     border: none;
     color: white;
     font-size: 24px;
+    cursor: pointer;
   }
