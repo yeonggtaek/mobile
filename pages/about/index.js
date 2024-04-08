@@ -18,9 +18,6 @@ export default function about() {
         width="300"
         height="300"
       />
-      <div className={styles.text2}>
-      <p>Climate change is the gradual increase in the overall temperature of the Earth's atmosphere attributed to the greenhouse effect caused by increased levels of carbon dioxide, chlorofluorocarbons (CFCs), and other pollutants. This phenomenon has been evidenced by various indicators and studies.</p>
-      </div>
     <Image
             className={styles.bear}
             src="/bear.png"

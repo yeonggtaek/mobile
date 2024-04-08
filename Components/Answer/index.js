@@ -15,7 +15,7 @@ export default function Answer({
       <h1 className={styles.title}>Q.{questionNumber}</h1>
       <Image
         className={styles.no}
-        src={answer === userAnswer ? "/yes.png" : "/no.png"}
+        src={answer === userAnswer ? "/yes.png" : `/no${questionNumber}.png`}
         alt={answer === userAnswer ? "yes" : "no"}
         width="300"
         height="300"
