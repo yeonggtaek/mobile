@@ -49,7 +49,7 @@ const quizData = [
     },
     {
       id: 4,
-      question: "Is carbon dioxide one of the greenhouse gases?",
+      question: "Is rapid melting of sea ice a result of climate change?",
       answer: 1,
       choices: [
         {
@@ -65,7 +65,7 @@ const quizData = [
     },
     {
       id: 5,
-      question: "Is carbon dioxide one of the greenhouse gases?",
+      question: "Is rising global temperature a major cause of climate change?",
       answer: 1,
       choices: [
         {
