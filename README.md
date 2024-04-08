@@ -1,6 +1,6 @@
 # planet-saver
 ## Created by
-- Cole, Yeongtaek
+- Yeongtaek
 ### Description
 - give info about climate change (include quiz)
 #### Packages installed
