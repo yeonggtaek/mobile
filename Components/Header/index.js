@@ -37,13 +37,13 @@ export default function Header() {
         />
       </div>
       <div className={styles.menuContainer}>
-        <div className={styles.menu} onClick={toggleMenu}>
-          <Image
-            src="/menu.png"
-            alt="menu"
-            width="60"
-            height="50"
-          />
+        <div
+          className={`${styles.menu} ${
+            isShowMenu ? styles.openedMenu : styles.closedMenu
+          }`}
+          onClick={toggleMenu}
+        >
+          <Image src="/menu.png" alt="menu" width="60" height="50" />
         </div>
       </div>
       {isShowMenu && (
@@ -58,11 +58,12 @@ export default function Header() {
             <li className={router.pathname === "/quiz" ? styles.active : ""}>
               <Link href="/quiz">Quiz</Link>
             </li>
-            <li className={router.pathname === "/learnmore" ? styles.active : ""}>
+            <li
+              className={router.pathname === "/learnmore" ? styles.active : ""}
+            >
               <Link href="/learnmore">Learnmore</Link>
             </li>
           </ul>
-          <button onClick={toggleMenu}>X</button>
         </div>
       )}
     </header>

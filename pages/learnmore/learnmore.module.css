@@ -1,34 +1,53 @@
 .learnmore {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 0px 30px;
-    gap: 20px;
-  }
-  
-  .sectionwrap{
-    width: 100%;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 30px;
+  gap: 20px;
+  margin-top: 20px;
+}
 
-  .text {
-    display: flex;
-    flex-direction: column;
-    font-size: 24px;
-    color: white;
-    gap: 20px;
-    text-align: center;
-  }
+.sectionWrap {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
 
-  .groundwrap {
-    display: flex;
-    justify-content: center;
-    align-items: left;
-  }
+.imgWrap {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
 
-  .button {
-    display: flex;
-    justify-content: center;
-    align-items: right;
-  }
+.earth5 {
+  width: 100%;
+  height: 200px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  color: white;
+  gap: 20px;
+  text-align: center;
+}
+
+.groundwrap {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+}
+
+.ground {
+  width: 100%;
+}
+
+.buttonWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

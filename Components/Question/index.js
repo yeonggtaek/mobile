@@ -9,7 +9,7 @@ export default function Question({ questionNumber, onClickAnswer }) {
     <>
       <h1 className={styles.title}>Q.{questionNumber}</h1>
       <Image
-        className={styles.man}
+        className={styles[`questionImage${questionNumber}`]}
         src={`/Q${questionNumber}.png`}
         alt={`Q${questionNumber}`}
         width="300"
