@@ -7,7 +7,7 @@ import styles from "./score.module.css";
 export default function Score({ score }) {
   return (
     <>
-      <Image src="/score.png" alt="score" width="150" height="150"/>
+      <Image src="/score.png" alt="score" width="220" height="200"/>
       <p className={styles.text}>Great Job!</p>
       <p className={styles.score}>score: {score}</p>
       <Button link="quiz">Retry</Button>

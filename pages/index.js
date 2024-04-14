@@ -3,7 +3,7 @@ import styles from "@/styles/Home.module.css";
 import Button from "@/Components/Button";
 import Layout from "@/Components/Layout";
 
-const items = [-5, -3, -2, -1, 0, 0, 0, 0, 1, 2, 3, 5];
+const items = [-3, -2, -1, 0, 0, 0, 0, 1, 2, 3];
 
 export default function Home() {
   const requestId = useRef();
