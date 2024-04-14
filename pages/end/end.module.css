@@ -1,12 +1,58 @@
 .end {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .text {
-    font-family: "Rubik Glitch";
-    font-size: 64px;
-    color: white;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.text {
+  font-family: "Rubik Glitch";
+  font-size: 64px;
+  color: white;
+}
+
+.newsContainer {
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 146px;
+  margin-top: 20px;
+}
+
+.loading,
+.error {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.error {
+  color: #a4a4a4;
+}
+
+.newsContainer h2 {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.article {
+  display: block;
+  width: 100%;
+  background-color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 8px;
+  box-sizing: border-box;
+  text-align: left;
+}
