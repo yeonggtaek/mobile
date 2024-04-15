@@ -32,8 +32,8 @@ export default function Header() {
           className={styles.logo}
           src="/logo.png"
           alt="logo"
-          width="100"
-          height="60"
+          width={100}
+          height={60}
         />
       </div>
       <div className={styles.menuContainer}>
@@ -43,7 +43,7 @@ export default function Header() {
           }`}
           onClick={toggleMenu}
         >
-          <Image src="/menu.png" alt="menu" width="60" height="50" />
+          <Image src="/menu.png" alt="menu" width={60} height={50} />
         </div>
       </div>
       {isShowMenu && (
