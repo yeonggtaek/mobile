@@ -9,8 +9,8 @@ export default function footer() {
       <Link href="/">
         <Image
           className={styles.home}
-          src="/Home.png"
-          alt="Home"
+          src="/home.png"
+          alt="home"
           width="60"
           height="50"
         />

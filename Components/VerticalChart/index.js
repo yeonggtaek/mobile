@@ -36,7 +36,8 @@ export default function VerticalChart() {
                    data: [80, 83, 88, 90, 95, 100],
                    borderColor: 'rgb(40, 120, 220)',
                    backgroundColor: 'rgba(53, 162, 235, 1)',
-                   color: 'white'
+                   fontColor: 'white',
+                   labelColor: 'white'
                 }
             ]
         })
@@ -45,7 +46,7 @@ export default function VerticalChart() {
             indexAxis: 'y',
             plugins: {
                 legend: {
-                    position: 'top'
+                    position: 'top',
                 },
                 title: {
                     display: true,
