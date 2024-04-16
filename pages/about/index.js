@@ -3,6 +3,7 @@ import Image from "next/image";
 import Button from "@/Components/Button";
 import styles from "./about.module.css";
 import Layout from "@/Components/Layout";
+import VerticalChart from "@/Components/VerticalChart";
 
 export default function about() {
   const [imgIdx, setImgIdx] = useState(0);
@@ -31,13 +32,9 @@ export default function about() {
         <div className={styles.text}>
           <p>Climate Chart</p>
         </div>
-        <Image
-          className={styles.graph}
-          src="/graph.png"
-          alt="graph"
-          width="300"
-          height="200"
-        />
+        <div className={styles.container}>
+          <VerticalChart/>
+        </div>
         <div className={styles.imgContainer} onClick={nextImage}>
           <div className={`${styles.imgBox} ${styles[`box-${imgIdx}`]}`}>
             <img className={styles.img} src="/bear.png" />
