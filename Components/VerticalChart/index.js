@@ -34,8 +34,8 @@ export default function VerticalChart() {
                 {
                    label: 'Data',
                    data: [80, 83, 88, 90, 95, 100],
-                   borderColor: 'rgb(40, 120, 220)',
-                   backgroundColor: 'rgba(53, 162, 235, 1)',
+                   borderColor: 'rgb(40, 120, 150)',
+                   backgroundColor: 'rgba(40, 130, 200, 1)',
                    fontColor: 'white',
                    labelColor: 'white'
                 }
