@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function End() {
   const API_KEY = process.env.NEXT_PUBLIC_API_KEY;
-  const keyword = "carbon footprint";
+  const keyword = "climate change";
   const [news, setNews] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 

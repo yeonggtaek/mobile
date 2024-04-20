@@ -9,7 +9,7 @@ export default function Start() {
       <div className={styles.text}>
         <p>Hi!</p>
         <p>Did you know that the Earth is suffering from climate change?</p>
-        <p>Let’s take a look at the problems caused by climate change:</p>
+        <p>Let’s take a look at the problems caused by climate change</p>
       </div>
       <Button link="/about">Go</Button>
     </section>
