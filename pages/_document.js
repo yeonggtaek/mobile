@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+      <link rel="icon" href="/cloud.png" />
         <link
           href="https://fonts.googleapis.com/css?family=Rubik Glitch"
           rel="stylesheet"
