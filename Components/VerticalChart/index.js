@@ -29,35 +29,37 @@ export default function VerticalChart() {
 
     useEffect(() => {
         setChartData({
-            labels: ["2019","2020","2021","2022","2023","2024"],
+            labels: ["2019", "2020", "2021", "2022", "2023", "2024"],
             datasets: [
                 {
-                   label: 'Data',
-                   data: [80, 83, 88, 90, 95, 100],
-                   borderColor: 'rgb(40, 120, 150)',
-                   backgroundColor: 'rgba(40, 130, 200, 1)',
-                   fontColor: 'white',
-                   labelColor: 'white'
+                    label: 'Data',
+                    data: [80, 83, 88, 90, 95, 100],
+                    borderColor: 'white',
+                    backgroundColor: 'rgba(255, 215, 0, 1)', 
                 }
             ]
-        })
-
+        });
+    
         setChartOptions({
             indexAxis: 'y',
             plugins: {
                 legend: {
                     position: 'top',
+                    labels: {
+                        color: 'white' 
+                    }
                 },
                 title: {
                     display: true,
                     text: "Sea level rise",
-                    color: 'white',
+                    color: 'white', 
                 }
             },
             maintainAspectRatio: true,
             responsive: true
-        })    
-    }, [])
+        });
+    }, []);
+    
 
     return (
         <Bar data={chartData} options={chartOptions} style={{width: "300px", height: "150px"}}/>

@@ -35,6 +35,9 @@ export default function about() {
         <div className={styles.container}>
           <VerticalChart/>
         </div>
+        <div>
+        <p className={styles.text3}>From 2019 to 2023, global warming caused a rise in sea levels. This rise occurred primarily due to the melting of polar ice caps and glaciers, as well as the thermal expansion of seawater. As temperatures increased worldwide, ice melted at an accelerated rate, contributing to the overall increase in ocean levels. This phenomenon poses significant risks to coastal communities, ecosystems, and infrastructure around the world.</p>
+        </div>
         <div className={styles.imgContainer} onClick={nextImage}>
           <div className={`${styles.imgBox} ${styles[`box-${imgIdx}`]}`}>
             <img className={styles.img} src="/bear.png" />
