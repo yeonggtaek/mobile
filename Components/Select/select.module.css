@@ -1,0 +1,39 @@
+.selectContainer {
+    position: relative;
+  }
+  .selected {
+    border: 1px solid;
+    padding: 0 10px;
+  }
+  
+  .selected:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #0a4e9f;
+  }
+  
+  .options {
+    position: absolute;
+    top: 0;
+    width: 190px;
+    background-color: white;
+    color: black;
+  }
+  
+  .options li {
+    padding: 0 10px;
+  }
+  
+  .options li:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #0a4e9f;
+  }
+  
+  .open {
+    display: block;
+  }
+  
+  .hide {
+    display: none;
+  }
