@@ -12,19 +12,27 @@
   color: white;
 }
 
-.newsContainer {
+.contentsContainer {
   color: white;
   padding: 20px;
   margin-top: 40px;
-  text-align: center;
 }
 
-.news {
+.contents {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.contents ul {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  height: 146px;
-  margin-top: 20px;
+  align-items: flex-start;
+  padding: 20px 0;
+}
+
+.contents ul li {
+  text-align: left;
 }
 
 .loading,
@@ -41,8 +49,12 @@
   color: #a4a4a4;
 }
 
-.newsContainer h2 {
-  font-size: 2rem;
+.contentsContainer h2 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 1.3rem;
   line-height: 3rem;
 }
 
